@@ -10,6 +10,7 @@
 //   return result;
 // };
 
-const countSheep = (num) => [...Array(num)].map((_, i) => `${i + 1} sheep...`).join('');
+const countSheep = (num) =>
+  [...Array(num)].map((_, i) => `${i + 1} sheep...`).join("");
 
 console.log(countSheep(3));

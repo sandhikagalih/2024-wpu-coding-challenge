@@ -1,0 +1,12 @@
+name: wpu_coding_challenge_2024
+description: 
+  Subscribe https://www.youtube.com/@sandhikagalihWPU and follow the playlist at https://www.youtube.com/watch?v=FPwm_F9ljvg&list=PLFIM0718LjIVrOglQcS_ZHkT5T_27Cmea.
+version: 1.0.0
+# repository: https://github.com/quadratz/2024-wpu-coding-challenge
+
+environment:
+  sdk: ^2.12.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.25.2

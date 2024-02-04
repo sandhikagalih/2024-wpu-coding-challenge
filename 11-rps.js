@@ -28,12 +28,12 @@
 
 const rps = (p1, p2) => {
   const rules = {
-    rock: 'scissors',
-    scissors: 'paper',
-    paper: 'rock',
+    rock: "scissors",
+    scissors: "paper",
+    paper: "rock",
   };
 
-  return p1 === p2 ? 'Draw!' : `Player ${rules[p1] === p2 ? '1' : '2'} won!`;
+  return p1 === p2 ? "Draw!" : `Player ${rules[p1] === p2 ? "1" : "2"} won!`;
 };
 
-console.log(rps('paper', 'rock'));
+console.log(rps("paper", "rock"));

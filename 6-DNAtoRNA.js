@@ -19,6 +19,6 @@
 // const DNAtoRNA = (dna) => dna.replace(/T/g, 'U');
 // const DNAtoRNA = (dna) => dna.replaceAll('T', 'U');
 
-const DNAtoRNA = (dna) => dna.split('T').join('U');
+const DNAtoRNA = (dna) => dna.split("T").join("U");
 
-console.log(DNAtoRNA('GCAT'));
+console.log(DNAtoRNA("GCAT"));
