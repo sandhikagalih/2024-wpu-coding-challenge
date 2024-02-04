@@ -12,7 +12,8 @@ perangkat masing-masing, baik yang berupa
 ## Memulai
 
 1. Buka terminal, lalu `cd` atau arahkan ke lokasi direktori ini.
-   > _Disarankan membuka direktori dengan kode editor, selama ia memiliki [extension / plugin Dart](https://dart.dev/tools#ides-and-editors)_.
+   > _Disarankan membuka direktori dengan kode editor, selama ia memiliki
+   > [extension / plugin Dart](https://dart.dev/tools#ides-and-editors)_.
 2. Install dependency yang diperlukan:
    > `dart pub get`
 3. Jalankan file yang diinginkan dengan menuliskan perintah berikut ke terminal:
