@@ -1,16 +1,20 @@
 {
 	"folders": [
 		{
-			"path": "javascript"
-		},
-		{
-			"path": "typescript"
+			"path": ".",
+			"name": "."
 		},
 		{
 			"path": "dart"
 		},
 		{
-			"path": "."
-		}
+			"path": "javascript_typescript/javascript"
+		},
+		{
+			"path": "javascript_typescript/typescript"
+		},
 	],
+	"settings": {
+		"deno.config": "javascript_typescript/deno.json"
+	}
 }
