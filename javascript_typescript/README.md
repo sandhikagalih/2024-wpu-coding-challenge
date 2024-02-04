@@ -1,4 +1,4 @@
-# TypeScript dan Javascript
+# JavaScript dan TypeScript
 
 [![Youtube Playlist](https://img.youtube.com/vi/RUTV_5m4VeI/0.jpg)](https://www.youtube.com/playlist?list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
 
