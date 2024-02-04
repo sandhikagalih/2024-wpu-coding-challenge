@@ -15,14 +15,20 @@ perangkat masing-masing, baik yang berupa
    > _Disarankan membuka direktori dengan kode editor, selama ia memiliki
    > [extension / plugin Dart](https://dart.dev/tools#ides-and-editors)_.
 2. Install dependency yang diperlukan:
-   > `dart pub get`
+   ```sh
+   dart pub get
+   ```
 3. Jalankan file yang diinginkan dengan menuliskan perintah berikut ke terminal:
-   > `dart run [lokasi_file]`
+   ```sh
+   dart run <lokasi_file>
+   ```
 
-   Ganti `[lokasi_file]` dengan lokasi file yang ingin dijalankan.
+   Ganti `<lokasi_file>` dengan lokasi file yang ingin dijalankan.
 
    Sebagai contoh, untuk menjalankan file `1-grow.dart` yang berada di direktori
    `src`, maka:
-   > `dart run lib/src/1-grow.dart`
+   ```sh
+   dart run lib/src/1-grow.dart
+   ```
 4. Untuk melakukan pengetesan, ganti perintah `dart run ...` pada poin 3 di atas
    dengan `dart test ...`. File pengetesan berada di direktori `test/`.

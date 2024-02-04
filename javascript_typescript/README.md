@@ -32,10 +32,14 @@ bersama-sama mencobanya.
    Untuk code editor lainnya silahkan periksa di
    [dokumentasi berikut](https://docs.deno.com/runtime/manual/getting_started/setup_your_environment).
 4. Jalankan file yang diinginkan dengan menuliskan perintah berikut ke terminal:
-   > `deno run [lokasi_file]`
+   ```sh
+   deno run <lokasi_file>
+   ```
 
-   Ganti `[lokasi_file]` dengan lokasi file yang ingin dijalankan.
+   Ganti `<lokasi_file>` dengan lokasi file yang ingin dijalankan.
 
    Sebagai contoh, untuk menjalankan file `1-grow.js` yang berada di direktori
    `javascript/src/`, maka:
-   > `deno run javascript/src/1-grow.js`
+   ```sh
+   deno run javascript/src/1-grow.js
+   ```
