@@ -10,6 +10,10 @@
 //   }
 // }
 
-const greet = (name, owner) => (name === owner ? 'Hello boss' : 'Hello guest');
+// const greet = (name, owner) => (name === owner ? 'Hello boss' : 'Hello guest');
 
-console.log(greet('Greg', 'Daniel'));
+// const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
+
+const greet = (name, owner) => 'Hello ' + ['guest', 'boss'][+(name === owner)];
+
+console.log(greet('Daniel', 'Daniel'));
